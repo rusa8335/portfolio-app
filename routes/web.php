@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 //Front
-Route::get('/',[FrontController::class, 'index']);
+Route::get('/',[FrontController::class, 'index'])->name('front.index');
